@@ -1,0 +1,63 @@
+<anan>
+  
+   <set xpath="/windows/window[@name='windowCraftingQueue']/rect[@controller='CraftingQueue']/grid[@name='queue']/@rows">3</set>
+   <set xpath="/windows/window[@name='windowCraftingQueue']/rect[@controller='CraftingQueue']/grid[@name='queue']/@cols">5</set>
+   <set xpath="/windows/window[@name='windowCraftingQueue']/rect[@controller='CraftingQueue']/grid[@name='queue']/@pos">-85,0</set>	
+   <set xpath="/windows/window[@name='windowCreative']/grid[@name='queue']/@rows">12</set>
+   <set xpath="/windows/window[@name='windowLooting']/rect[@name='content']/grid[@name='queue']/@rows">14</set>
+   <set xpath="/windows/window[@name='windowLooting']/rect[@name='content']/grid[@name='queue']/@cols">16</set>
+   <append xpath="/windows/window[@name='windowLooting']/panel/rect[@visible='{buttons_visible}']">
+      <combobox depth="3" name="cbxLockedSlots" pos="70,-7" width="100" height="30" tooltip_key="xuiStashLockedSlots" type="ComboBoxInt" value_min="0" value_max="{container_slots}" value_wrap="true" value_increment="1" />
+   </append>
+   <set xpath="/windows/window[@name='emptyInfoPanel']/@width">1476</set>
+   <set xpath="/windows/window[@name='emptyInfoPanel']/rect[@name='contentCraftingInfo']/sprite[@name='backgroundMain']/@width">1476</set>
+   <set xpath="/windows/window[@name='craftingInfoPanel']/@width">1476</set>
+   <set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/sprite[@depth='5']/@width">1476</set>
+   <set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='searchControls']/@width">1321</set>
+   <set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='description']/@width">1320</set>
+   <set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='description']/sprite[@name='backgroundMain']/@width">1326</set>
+   <set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='description']/rect/label[@name='descriptionText']/@width">1313</set>
+   <set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='ingredients']/@width">1320</set>
+   <set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='ingredients']/grid[@controller='IngredientList']/@width">1320</set>
+   <set xpath="/windows/window[@name='craftingInfoPanel']/rect[@name='contentCraftingInfo']/rect[@name='ingredients']/grid[@controller='IngredientList']/@cell_width">1320</set>
+   <set xpath="/windows/window[@name='itemInfoPanel']/@width">1479</set>
+   <set xpath="/windows/window[@name='itemInfoPanel']/panel[@name='header']/label[@name='windowName']/@width">1371</set>
+   <set xpath="/windows/window[@name='itemInfoPanel']/panel[@name='header']/label[@justify='right']/@pos">1221,-8</set>
+   <set xpath="/windows/window[@name='itemInfoPanel']/panel[@name='header']/sprite[@name='costIcon']/@pos">1448,-10</set>
+   <set xpath="/windows/window[@name='itemInfoPanel']/rect[@name='contentInfo']/sprite[@depth='5']/@width">1476</set>
+   <set xpath="/windows/window[@name='itemInfoPanel']/rect[@name='contentInfo']/rect[@name='searchControls']/@width">1321</set>
+   <set xpath="/windows/window[@name='itemInfoPanel']/rect[@name='contentInfo']/rect[@name='searchControls']/sprite[@type='sliced']/@width">1322</set>
+   <set xpath="/windows/window[@name='itemInfoPanel']/rect[@name='contentInfo']/rect[@pos='153,0']/@width">1320</set>
+   <set xpath="/windows/window[@name='itemInfoPanel']/rect[@name='contentInfo']/rect[@pos='153,0']/sprite[@name='backgroundMain']/@width">1326</set>
+   <set xpath="/windows/window[@name='itemInfoPanel']/rect[@name='contentInfo']/rect[@pos='153,0']/label[@name='descriptionText']/@width">1313</set>
+   <set xpath="/windows/window[@name='itemInfoPanel']/rect[@name='contentInfo']/rect[@pos='153,-43']/@width">1320</set>
+   <set xpath="/windows/window[@name='itemInfoPanel']/rect[@name='contentInfo']/rect[@pos='153,-43']/sprite[@name='backgroundMain']/@width">1326</set>
+   <set xpath="/windows/window[@name='itemInfoPanel']/rect[@name='contentInfo']/rect[@pos='153,-43']/rect[@visible='{showstats}']/@width">1326</set>
+   <set xpath="/windows/window[@name='itemInfoPanel']/rect[@name='contentInfo']/rect[@pos='153,-43']/rect[@visible='{showstats}']/rect/label[@width='430']/@width">1303</set>
+   <set xpath="/windows/window[@name='itemInfoPanel']/rect[@name='contentInfo']/rect[@pos='153,-43']/rect[@visible='{showdescription}']/label[@name='descriptionText']/@width">1313</set>
+   <set xpath="/windows/window[@name='itemInfoPanel']/rect[@name='contentInfo']/grid[@name='parts']/@cols">17</set>
+   <set xpath="/windows/window[@name='itemInfoPanel']/rect[@name='contentInfo']/rect[@visible='{iscomparing}']/@width">1323</set>
+   <set xpath="/windows/window[@name='buffInfoPanel']/@width">1476</set>
+   <set xpath="/windows/window[@name='buffInfoPanel']/rect[@name='contentBuffInfo']/rect/sprite[@depth='5']/@width">1476</set>
+   <set xpath="/windows/window[@name='buffInfoPanel']/rect[@name='contentBuffInfo']/rect/rect[@name='description']/@width">1321</set>
+   <set xpath="/windows/window[@name='buffInfoPanel']/rect[@name='contentBuffInfo']/rect/rect[@depth='1']/sprite[@name='backgroundMain']/@width">1326</set>
+   <set xpath="/windows/window[@name='buffInfoPanel']/rect[@name='contentBuffInfo']/rect/rect[@depth='1']/rect/label[@name='descriptionText']/@width">1326</set>
+   <set xpath="/windows/window[@name='windowBackpack']/@width">1477</set>
+   <set xpath="/windows/window[@name='windowBackpack']/@height">717</set>
+   <set xpath="/windows/window[@name='windowBackpack']/panel/rect[@width='300']/@pos">303,0</set>
+   <append xpath="/windows/window[@name='windowBackpack']/panel/rect[@move_start_bottom_left='true']">
+      <combobox depth="3" name="cbxLockedSlots" pos="105,-7" width="140" height="30" tooltip_key="xuiStashLockedSlots" type="ComboBoxInt" value_min="0" value_max="198" value_wrap="true" value_increment="1"/>
+   </append>
+   <set xpath="/windows/window[@name='windowBackpack']/panel/label[@depth='2']/@pos">1343,-8</set>
+   <set xpath="/windows/window[@name='windowBackpack']/panel/label[@depth='2']/@text">公爵币{currencyamount}</set>
+   <setattribute xpath="/windows/window[@name='windowBackpack']/panel/label[@depth='2']" name="color">[Golden]</setattribute>
+   <set xpath="/windows/window[@name='windowBackpack']/panel/sprite[@name='costIcon']/@pos">1448,-10</set>
+   <set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/sprite[@name='backgroundMain']/@width">1477</set>
+   <set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/sprite[@name='backgroundMain']/@height">604</set>
+   <set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/grid[@name='inventory']/@rows">9</set>
+   <set xpath="/windows/window[@name='windowBackpack']/panel[@name='content']/grid[@name='inventory']/@cols">22</set>
+   <append xpath="/windows/window[@name='windowVehicleStorage']/panel/rect[@visible='{buttons_visible}']">
+      <combobox depth="3" name="cbxLockedSlots" pos="70,-7" width="100" height="30" tooltip_key="xuiStashLockedSlots" type="ComboBoxInt" value_min="0" value_max="{container_slots}" value_wrap="true" value_increment="1" />
+   </append>
+  	
+</anan>

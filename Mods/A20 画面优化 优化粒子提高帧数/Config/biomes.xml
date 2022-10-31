@@ -1,0 +1,5 @@
+<config>
+<set xpath="/worldgeneration/biomes/biome[@name='snow']/weather/ParticleEffect[@prefab='ParticleEffects/p_snowstorm1']/@ChunkMargin">120</set>
+<set xpath="/worldgeneration/biomes/biome[@name='desert']/weather/ParticleEffect[@prefab='ParticleEffects/p_sandstorm']/@ChunkMargin">120</set>
+<set xpath="/worldgeneration/biomes/biome[@name='burnt_forest']/weather/ParticleEffect[@prefab='ParticleEffects/p_smokestorm']/@ChunkMargin">120</set>
+</config>

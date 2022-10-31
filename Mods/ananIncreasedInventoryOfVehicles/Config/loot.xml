@@ -1,0 +1,10 @@
+<anan>
+ 
+   <set xpath="/lootcontainers/lootcontainer[@id='76']/@size">10,4</set>
+   <set xpath="/lootcontainers/lootcontainer[@id='77']/@size">10,6</set>
+   <set xpath="/lootcontainers/lootcontainer[@id='78']/@size">10,9</set>
+   <set xpath="/lootcontainers/lootcontainer[@id='79']/@size">11,11</set>
+   <set xpath="/lootcontainers/lootcontainer[@id='80']/@size">10,5</set>
+   <set xpath="/lootcontainers/lootcontainer[@id='139']/@size">8,11</set>
+  
+</anan>

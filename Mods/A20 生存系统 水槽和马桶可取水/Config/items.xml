@@ -1,0 +1,21 @@
+<configs>	
+		
+<!-- Empty Jar -->
+    <append xpath="/items/item[@name='drinkJarEmpty']">
+        <property class="Action0">
+            <!-- UseAction -->
+            <property name="Class" value="ExchangeItem" />
+            <property name="Delay" value="1.0" />
+            <property name="Change_item_to" value="drinkJarRiverWater" />
+            <property name="Focused_blockname_1" value="cntGraniteSink" />
+            <property name="Focused_blockname_2" value="cntCabinetOldSink" />
+			<property name="Focused_blockname_3" value="cntToilet01" />
+            <property name="Focused_blockname_4" value="cntToilet02" />
+            <property name="Focused_blockname_5" value="cntToilet03" />
+            <property name="Focused_blockname_5" value="urinalCommercialMounted" />
+            <property name="Focused_blockname_6" value="drinkingfountainDouble" />
+            <property name="Focused_blockname_7" value="drinkingfountainSingle" />
+			<property name="Sound_start" value="UseActions/bucketfill_water" />
+	</property>
+</append>
+</configs>

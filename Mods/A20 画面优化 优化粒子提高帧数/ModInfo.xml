@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Simple FPS Saver" />
+		<Description value="Lesser FPS through Biome Particles" />
+		<Author value="Malacay2k11" />
+		<Version value="1.0" />
+		<Website value="" />
+	</ModInfo>
+</xml>

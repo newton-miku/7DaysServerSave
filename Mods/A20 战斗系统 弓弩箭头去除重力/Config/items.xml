@@ -1,0 +1,9 @@
+<FobinHood>
+
+<!-- Arrows -->
+	<set xpath="/items/item[contains(@name, 'ammoArrow') or contains(@name, 'Bolt')]/property[@class='Action1']/property[@name='Gravity']/@value">
+		0
+	</set>
+	
+	
+</FobinHood>
